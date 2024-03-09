@@ -6,7 +6,7 @@ const useScrollProgress = () => {
     useEffect (()=>{
         const updateScrollCompletion = ()=>{
             const currentProgress = window.scrollY;
-            const scrollHeight = window.ReportBody.scrollHeight - window.innerHeight;
+            const scrollHeight = document.body.scrollHeight - window.innerHeight;
 
             if(scrollHeight){
                 setCompletion(Number(currentProgress/scrollHeight).toFixed(2)*100)
