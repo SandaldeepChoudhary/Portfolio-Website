@@ -18,47 +18,47 @@ const reviewsData = [
     name: "Ankit Katoch",
     job: "Chef",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos mollitia, expedita reprehenderit alias facilis tempore neque ad modi perferendis placeat?",
+      "Sandaldeep is an exceptional web developer! His attention to detail and innovative approach transformed our website.",
   },
   {
     avatar: "/reviews/avatar-2.png",
     name: "Sagar Thakur",
     job: "Driver",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos mollitia, expedita reprehenderit alias facilis tempore neque ad modi perferendis placeat?",
+      "Working with Sandaldeep was a pleasure. His expertise as an app developer is evident in the seamless functionality of our mobile app.",
   },
   {
     avatar: "/reviews/avatar-3.png",
     name: "Bhavesh Verma",
     job: "Jeweller",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos mollitia, expedita reprehenderit alias facilis tempore neque ad modi perferendis placeat?",
+      "Sandaldeep's dedication to his craft is commendable. He goes above and beyond to deliver outstanding results.",
   },
   {
     avatar: "/reviews/avatar-4.png",
     name: "Gourav Kumar",
     job: "Business man",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos mollitia, expedita reprehenderit alias facilis tempore neque ad modi perferendis placeat?",
+      "As an individual, Sandaldeep is reliable and professional. His communication skills make collaboration effortless.",
   },
   {
     avatar: "/reviews/avatar-5.png",
     name: "Anuj Rana",
     job: "Flutter Developer",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos mollitia, expedita reprehenderit alias facilis tempore neque ad modi perferendis placeat?",
+      "I am impressed by Sandaldeep's professionalism and expertise. He is a valuable asset to any development team.",
   },
   {
     avatar: "/reviews/avatar-6.png",
     name: "Shubham Jaswal",
     job: "Flutter Dev",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos mollitia, expedita reprehenderit alias facilis tempore neque ad modi perferendis placeat?",
+      "It was a pleasure working with Sandaldeep. His ability to problem-solve and adapt to changes made the project a success",
   },
 ];
 const Reviews = () => {
   return (
-    <section className="mb-12 xl:mb-32">
+    <section className="mb-12 xl:mb-22">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 text-center mx-auto">Reviews</h2>
         {/* slider  */}

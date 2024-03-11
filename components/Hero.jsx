@@ -4,7 +4,6 @@ import { Download, Send } from "lucide-react";
 
 import {
   RiBriefcase4Fill,
-  RITeamFill,
   RiTodoFill,
   RiArrowDownLine,
   RiTeamFill,
@@ -37,10 +36,14 @@ const Hero = () => {
                   <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download CV
-                <Download size={18} />
-              </Button>
+              <Link
+                href="/Sandaldeep Resume.pdf"
+              >
+                <Button variant="secondary" className="gap-x-2">
+                  Download CV
+                  <Download size={18} />
+                </Button>
+              </Link>
             </div>
             {/* social */}
             <Socials
@@ -52,18 +55,25 @@ const Hero = () => {
           <div className="hidden xl:flex relative">
             {/* Badge 1*/}
             <Badge
-            containerStyles="absolute top-[24%] -left-[5rem]" 
-            icon={<RiBriefcase4Fill/>} endCountNum={2} badgeText="Years Of Experience"/>
+              containerStyles="absolute top-[24%] -left-[5rem]"
+              icon={<RiBriefcase4Fill />}
+              endCountNum={2}
+              badgeText="Years Of Experience"
+            />
             {/* Badge 2*/}
             <Badge
-            containerStyles="absolute top-[80%] -left-[1rem]" 
-            icon={<RiTodoFill/>} endCountNum={6}
-            badgeText="Finished Projects"/>
+              containerStyles="absolute top-[80%] -left-[1rem]"
+              icon={<RiTodoFill />}
+              endCountNum={6}
+              badgeText="Finished Projects"
+            />
             {/* Badge 3*/}
             <Badge
-            containerStyles="absolute top-[55%] -right-8" 
-            icon={<RiTeamFill/>} endCountNum={10}
-            badgeText="Happy Clients"/>
+              containerStyles="absolute top-[55%] -right-8"
+              icon={<RiTeamFill />}
+              endCountNum={10}
+              badgeText="Happy Clients"
+            />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
               containerStyles="bg-[#E11D48] rounded-tl-[210px] rounded-tr-[285px] rounded-br-[210px] rounded-bl-[290px]  w-[510px] h-[462px] bg-no-repeat relative bg-bottom overflow-hidden object-cover"
