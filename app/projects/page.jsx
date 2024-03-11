@@ -6,6 +6,15 @@ import { useState } from "react";
 
 const projectData = [
   {
+    image: "/work/3.png",
+    category: "next js",
+    name: "Portfolio Website",
+    description:
+      "Designed and developed a portfolio website to showcase skills, projects, and achievements professionally.",
+    link: "https://sandaldeep.vercel.app/",
+    github: "https://github.com/SandaldeepChoudhary/Portfolio-Website",
+  },
+  {
     image: "/work/1.png",
     category: "fullstack",
     name: "Income Expense App",
@@ -14,9 +23,8 @@ const projectData = [
     link: "https://income-expense-app.onrender.com/",
     github: "https://github.com/SandaldeepChoudhary/Income-Expense-App",
   },
-
   {
-    image: "/work/3.png",
+    image: "/work/4.png",
     category: "javascript",
     name: "Profile Website",
     description:
@@ -24,8 +32,17 @@ const projectData = [
     link: "https://sandaldeepchoudhary.github.io/Profile-Website/",
     github: "https://github.com/SandaldeepChoudhary/Profile-Website",
   },
+  // {
+  //   image: "/work/3.png",
+  //   category: "next js",
+  //   name: "User Authentication System",
+  //   description:
+  //     "Built a secure user authentication system for ensuring access control and data protection.",
+  //   link: "/",
+  //   github: "https://github.com/SandaldeepChoudhary/User-Authentication-System",
+  // },
   {
-    image: "/work/4.png",
+    image: "/work/2.png",
     category: "javascript",
     name: "Bubble Game",
     description:
@@ -33,25 +50,8 @@ const projectData = [
     link: "https://sandaldeepchoudhary.github.io/Bubble-Game/",
     github: "https://github.com/SandaldeepChoudhary/Bubble-Game",
   },
-  {
-    image: "/work/2.png",
-    category: "next js",
-    name: "Portfolio Website",
-    description:
-      "Designed and developed a portfolio website to showcase skills, projects, and achievements professionally.",
-    link: "/",
-    github: "https://github.com/SandaldeepChoudhary/Portfolio-Website",
-  },
-  {
-    image: "/work/3.png",
-    category: "next js",
-    name: "User Authentication System",
-    description:
-      "Built a secure user authentication system for ensuring access control and data protection.",
-    link: "/",
-    github: "https://github.com/SandaldeepChoudhary/User-Authentication-System",
-  },
 ];
+
 //remove category duplicates
 const uniqueCategories = [
   "all projects",
