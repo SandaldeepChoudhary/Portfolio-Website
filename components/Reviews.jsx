@@ -73,7 +73,7 @@ const Reviews = () => {
           pagination={{
             clickable: true,
           }}
-          className="h-[350px]"
+          className="h-[400px]"
         >
           {reviewsData.map((person, index) => {
             return (
@@ -81,13 +81,19 @@ const Reviews = () => {
                 <Card className="bg-tertiary dark:bg-secondary/40 p-8 min-h-[300px]">
                   <CardHeader className="p-0 mb-10">
                     <div className="flex items-center gap-x-4">
-                        {/* image  */}
-                        <Image src={person.avatar} width={70} height={70} alt="" priority/>
-                        {/* name  */}
-                        <div>
-                            <CardTitle>{person.name}</CardTitle>
-                            <p>{person.job}</p>
-                        </div>
+                      {/* image  */}
+                      <Image
+                        src={person.avatar}
+                        width={70}
+                        height={70}
+                        alt=""
+                        priority
+                      />
+                      {/* name  */}
+                      <div>
+                        <CardTitle>{person.name}</CardTitle>
+                        <p>{person.job}</p>
+                      </div>
                     </div>
                   </CardHeader>
                   <CardDescription className="text-lg text-muted-foreground">
