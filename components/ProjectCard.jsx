@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
         {/* image  */}
         <div className="relative w-full h-[300px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 xl:bg-work_project_bg_light dark:bg-work_project_dark xl:bg[110%] xl:bg-no_repeat overflow-hidden">
           <Image
-            className="absolute bottom-0 shadow-2xl"
+            className="absolute bottom-0 shadow-2xl rounded-t-xl"
             src={project.image}
             width={247}
             height={250}
@@ -21,16 +21,18 @@ const ProjectCard = ({ project }) => {
           {/* btn links */}
           <div className="flex gap-x-4">
             <Link
-              href={project.link} target="_blank"
+              href={project.link}
+              target="_blank"
               className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
               <Link2Icon />
             </Link>
             <Link
-              href={project.github} target="_blank"
+              href={project.github}
+              target="_blank"
               className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
-              <GithubIcon/>
+              <GithubIcon />
             </Link>
           </div>
         </div>
