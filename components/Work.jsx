@@ -57,7 +57,7 @@ const projectData = [
     category: "javascript",
     name: "Bubble Game",
     description:
-      "Pop bubbles and beat levels in this addictive game, offering fun for all ages.",
+      "Pop bubbles and beat levels in this addictive game, offering fun for all ages. Enriched with the greatness of JavaScript.",
     link: "https://sandaldeepchoudhary.github.io/Bubble-Game/",
     github: "https://github.com/SandaldeepChoudhary/Bubble-Game",
   },
