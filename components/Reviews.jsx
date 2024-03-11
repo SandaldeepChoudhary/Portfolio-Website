@@ -14,46 +14,46 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const reviewsData = [
   {
-    avatar: "/reviews/avatar-1.png",
-    name: "Ankit Katoch",
-    job: "Chef",
-    review:
-      "Sandaldeep is an exceptional web developer! His attention to detail and innovative approach transformed our website.",
-  },
-  {
-    avatar: "/reviews/avatar-2.png",
+    avatar: "/reviews/avatar-6.jpeg",
     name: "Sagar Thakur",
-    job: "Driver",
+    job: "Educational Youtuber",
     review:
-      "Working with Sandaldeep was a pleasure. His expertise as an app developer is evident in the seamless functionality of our mobile app.",
+      "It was a pleasure working with Sandaldeep. His ability to problem-solve and adapt to changes made the project a success",
   },
   {
-    avatar: "/reviews/avatar-3.png",
-    name: "Bhavesh Verma",
-    job: "Jeweller",
-    review:
-      "Sandaldeep's dedication to his craft is commendable. He goes above and beyond to deliver outstanding results.",
-  },
-  {
-    avatar: "/reviews/avatar-4.png",
-    name: "Gourav Kumar",
-    job: "Business man",
+    avatar: "/reviews/avatar-4.jpeg",
+    name: "Amit Mohan",
+    job: "Merchant",
     review:
       "As an individual, Sandaldeep is reliable and professional. His communication skills make collaboration effortless.",
   },
   {
-    avatar: "/reviews/avatar-5.png",
-    name: "Anuj Rana",
-    job: "Flutter Developer",
+    avatar: "/reviews/avatar-1.jpeg",
+    name: "Bhavesh Verma",
+    job: "Jeweller",
     review:
-      "I am impressed by Sandaldeep's professionalism and expertise. He is a valuable asset to any development team.",
+      "Sandaldeep is an exceptional web developer! His attention to detail and innovative approach transformed our website.",
   },
   {
-    avatar: "/reviews/avatar-6.png",
-    name: "Shubham Jaswal",
-    job: "Flutter Dev",
+    avatar: "/reviews/avatar-2.jpeg",
+    name: "Vishal Dogra",
+    job: "CRM",
     review:
-      "It was a pleasure working with Sandaldeep. His ability to problem-solve and adapt to changes made the project a success",
+      "Working with Sandaldeep was a pleasure. His expertise as an app developer is evident in the seamless functionality of our mobile app.",
+  },
+  {
+    avatar: "/reviews/avatar-3.jpeg",
+    name: "Gourav Kumar",
+    job: "Business man",
+    review:
+      "Sandaldeep's dedication to his craft is commendable. He goes above and beyond to deliver outstanding results.",
+  },
+  {
+    avatar: "/reviews/avatar-5.jpeg",
+    name: "Keiani",
+    job: "Influencer",
+    review:
+      "I am impressed by Sandaldeep's professionalism and expertise. He is a valuable asset to any development team.",
   },
 ];
 const Reviews = () => {
@@ -88,6 +88,7 @@ const Reviews = () => {
                         height={70}
                         alt=""
                         priority
+                        className="rounded-full"
                       />
                       {/* name  */}
                       <div>
