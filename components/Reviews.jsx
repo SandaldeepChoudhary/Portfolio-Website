@@ -28,7 +28,7 @@ const reviewsData = [
       "As an individual, Sandaldeep is reliable and professional. His communication skills make collaboration effortless.",
   },
   {
-    avatar: "/reviews/Sudarshana.png",
+    avatar: "/reviews/Sudarshana.jpg",
     name: "Sudarshana Thakur",
     job: "Software Developer",
     review:
