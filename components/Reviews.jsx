@@ -16,9 +16,9 @@ const reviewsData = [
   {
     avatar: "/reviews/avatar-6.jpeg",
     name: "Sagar Thakur",
-    job: "Educational Youtuber",
+    job: "Influencer",
     review:
-      "It was a pleasure working with Sandaldeep. His ability to problem-solve and adapt to changes made the project a success",
+      "It was a pleasure working with Sandaldeep. His ability to problem-solve and adapt to changes made our project a success",
   },
   {
     avatar: "/reviews/avatar-4.jpeg",
@@ -28,16 +28,23 @@ const reviewsData = [
       "As an individual, Sandaldeep is reliable and professional. His communication skills make collaboration effortless.",
   },
   {
+    avatar: "/reviews/Sudarshana.png",
+    name: "Sudarshana Thakur",
+    job: "Software Developer",
+    review:
+      "Sandaldeep is a great teammate, offering valuable insights and collaboration, making programming tasks more efficient and enjoyable.",
+  },
+  {
     avatar: "/reviews/avatar-1.jpeg",
     name: "Bhavesh Verma",
     job: "Jeweller",
     review:
-      "Sandaldeep is an exceptional web developer! His attention to detail and innovative approach transformed our website.",
+      "Sandaldeep's web design enhanced my jewelry business, attracting more customers with its stunning and user-friendly layout. Highly recommended!",
   },
   {
     avatar: "/reviews/avatar-2.jpeg",
     name: "Vishal Dogra",
-    job: "CRM",
+    job: "Service Provider",
     review:
       "Working with Sandaldeep was a pleasure. His expertise as an app developer is evident in the seamless functionality of our mobile app.",
   },
@@ -47,13 +54,6 @@ const reviewsData = [
     job: "Business man",
     review:
       "Sandaldeep's dedication to his craft is commendable. He goes above and beyond to deliver outstanding results.",
-  },
-  {
-    avatar: "/reviews/avatar-5.jpeg",
-    name: "Keiani",
-    job: "Influencer",
-    review:
-      "I am impressed by Sandaldeep's professionalism and expertise. He is a valuable asset to any development team.",
   },
 ];
 const Reviews = () => {
