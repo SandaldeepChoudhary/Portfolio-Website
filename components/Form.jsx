@@ -13,7 +13,6 @@ const Form = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
 
     emailjs
       .sendForm("service_93i2nan", "template_o0ehj02", form.current, {
@@ -21,7 +20,7 @@ const Form = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          console.log("Message is sent Successfully!");
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -33,17 +32,17 @@ const Form = () => {
     <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-y-4">
       {/* input  */}
       <div className="relative flex items-center">
-        <Input type="name" id="name" name="user_name" placeholder="Name" />
+        <Input type="name" id="name" name="user_name" required placeholder="Name" />
         <User className="absolute right-6" size={20} />
       </div>
       {/* Email  */}
       <div className="relative flex items-center">
-        <Input type="email" id="email" name="user_email" placeholder="Email" />
+        <Input type="email" id="email" name="user_email" required placeholder="Email" />
         <MailIcon className="absolute right-6" size={20} />
       </div>
       {/* Textarea  */}
       <div className="relative flex items-center">
-        <Textarea name="message" placeholder="Type Your Message Here..." />
+        <Textarea name="message" required placeholder="Type Your Message Here..." />
         <MessageSquare className="absolute right-6" size={20} />
       </div>
       <Button
