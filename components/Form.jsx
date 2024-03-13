@@ -18,6 +18,28 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Validate name field for special characters
+    const nameField = form.current.elements["user_name"];
+    if (!/^[a-zA-Z ]+$/.test(nameField.value)) {
+      toast.error("Name must not contain special characters");
+      return;
+    }
+
+    // Validate email field
+    const emailField = form.current.elements["user_email"];
+    if (!isValidEmail(emailField.value)) {
+      toast.error("Please enter a valid email address");
+      return;
+    }
+
+    // Validate textarea for word limit
+    const messageField = form.current.elements["message"];
+    const messageWords = messageField.value.trim().split(/\s+/);
+    if (messageWords.length > 200) {
+      toast.error("Message should not exceed 200 words");
+      return;
+    }
+
     toast.success("Thank you for contacting me! I'll get back to you 😊");
     emailjs
       .sendForm("service_93i2nan", "template_o0ehj02", form.current, {
@@ -32,6 +54,11 @@ const Form = () => {
           console.log("FAILED...", error.text);
         }
       );
+  };
+
+  const isValidEmail = (email) => {
+    // Simple email validation regex
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
 
   return (
