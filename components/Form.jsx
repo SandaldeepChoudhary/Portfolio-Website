@@ -17,7 +17,7 @@ const Form = () => {
     return <p>Thanks for joining!</p>;
   }
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-y-4">
+    <form onSubmit={handleSubmit} method="post" className="flex flex-col gap-y-4">
         {/* input  */}
         <div className="relative flex items-center">
             <Input type="name" id="name" placeholder="Name"/>
