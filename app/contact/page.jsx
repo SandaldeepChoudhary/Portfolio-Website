@@ -18,7 +18,7 @@ const Contact = () => {
         pauseOnHover
         theme="light"
       />
-      <div className="container mx-auto">
+          <div className="container mx-auto">
         {/* text and illustration */}
         <div className="grid xl:grid-cols-2 pt-12 xl:h-[480px] mb-6 xl:mb-24">
           {/* text  */}

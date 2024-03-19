@@ -20,7 +20,7 @@ const Form = () => {
     e.preventDefault();
     // Validate name field for special characters
     const nameField = form.current.elements["user_name"];
-    if (!/^[a-zA-Z ]+$/.test(nameField.value)) {
+    if (!/^[a-zA-Z]+(?: [a-zA-Z]+)*$/.test(nameField.value)) {
       toast.error("Name must not contain special characters");
       return;
     }
