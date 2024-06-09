@@ -30,11 +30,11 @@ const infoData = [
   },
   {
     icon: <Calendar size={20} />,
-    text: "Born on 21 October, 1999",
+    text: "Born in 1999",
   },
   {
     icon: <GraduationCap size={20} />,
-    text: "Master of Computer Applications",
+    text: "Master of Computer Application",
   },
   {
     icon: <HomeIcon size={20} />,
@@ -48,16 +48,16 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "HTML, CSS",
+        name: "HTML, CSS, Tailwind CSS",
       },
       {
-        name: "Front-end Development",
+        name: "Next Js, React Js, Vue, Shadcn UI, Headless UI",
       },
       {
-        name: "Javascript, PHP",
+        name: "Typescript, Javascript, PHP, RESTful API",
       },
       {
-        name: "Back-end Development",
+        name: "Node Js, Express Js, MongoDB, MySQL",
       },
     ],
   },

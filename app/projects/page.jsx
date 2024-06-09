@@ -6,6 +6,15 @@ import { useState } from "react";
 
 const projectData = [
   {
+    image: "/work/5.png",
+    category: "next js",
+    name: "AcceLStore- A Digital Marketplace",
+    description:
+      "Designed and developed a digital marketplace webapp. Build on Next.js with Typescript to ensure type safety.",
+    link: "https://accelstore.up.railway.app/",
+    github: "https://github.com/SandaldeepChoudhary/AcceLStore",
+  },
+  {
     image: "/work/3.png",
     category: "next js",
     name: "Portfolio Website",

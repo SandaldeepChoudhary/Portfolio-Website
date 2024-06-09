@@ -36,9 +36,7 @@ const Hero = () => {
                   <Send size={18} />
                 </Button>
               </Link>
-              <Link
-                href="/Sandaldeep Resume.pdf"
-              >
+              <Link href="/Sandaldeep Resume.pdf">
                 <Button variant="secondary" className="gap-x-2">
                   Download CV
                   <Download size={18} />
@@ -81,7 +79,7 @@ const Hero = () => {
             />
           </div>
           {/* Icons */}
-          <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
+          <div className="hidden md:flex absolute left-2/4 bottom-12 xl:bottom-12 animate-bounce">
             <RiArrowDownLine className="text-3xl text-primary" />
           </div>
         </div>
