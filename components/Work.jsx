@@ -17,6 +17,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const projectData = [
   {
+    image: "/work/6.jpg",
+    category: "next js",
+    name: "Lok Mitra Kendra Hangloh",
+    description:
+      "I utilized Next.js 14, Shadcn UI, Tailwind CSS, and Framer Motion to create an engaging and responsive user experience.",
+    link: "https://lmkhangloh.vercel.app/",
+    github: "https://github.com/SandaldeepChoudhary/LMK-Hangloh",
+  },
+  {
     image: "/work/5.png",
     category: "next js",
     name: "AcceLStore- A Digital Marketplace",

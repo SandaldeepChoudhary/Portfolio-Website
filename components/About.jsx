@@ -100,11 +100,6 @@ const qualificationData = [
         qualification: "Class 10+2 (Non-Medical)",
         years: "2017",
       },
-      // {
-      //   university: "Rainbow International School, Nagrota Bagwan",
-      //   qualification: "Class 10",
-      //   years: "2015",
-      // },
     ],
   },
   {
@@ -112,7 +107,7 @@ const qualificationData = [
     data: [
       {
         company: "Development Logics Pvt. Ltd.",
-        role: "Software Engineer",
+        role: "Software Engineer Intern",
         years: "2023 - 2024",
       },
     ],
