@@ -74,7 +74,7 @@ const Hero = () => {
             />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
-              containerStyles="bg-[#E11D48] rounded-tl-[210px] rounded-tr-[285px] rounded-br-[210px] rounded-bl-[290px]  w-[510px] h-[462px] bg-no-repeat relative bg-bottom overflow-hidden object-cover"
+              containerStyles="bg-[#E11D48] rounded-tl-[210px] rounded-tr-[285px] rounded-br-[210px] rounded-bl-[290px]  w-[510px] h-[510px] bg-no-repeat relative bg-bottom overflow-hidden"
               imgSrc="/hero/developer.png"
             />
           </div>

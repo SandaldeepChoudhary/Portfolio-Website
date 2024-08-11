@@ -7,6 +7,7 @@ const DevImg = ({ containerStyles, imgSrc }) => {
         src={imgSrc}
         className="rounded-tl-[270px] rounded-tr-[285px] rounded-br-[230px] rounded-bl-[300px]"
         fill
+        objectFit="contain"
         priority
         alt="Sandaldeep"
       />
